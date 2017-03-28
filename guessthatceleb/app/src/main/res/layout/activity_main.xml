@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.alaskalinuxuser.guessthatceleb.MainActivity"
+    android:gravity="top|center_horizontal">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nameView"
+        android:textSize="40sp"
+        android:layout_margin="25dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:tag="0"
+            android:onClick="amIRight"
+            android:id="@+id/imageViewZero" />
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:tag="1"
+            android:onClick="amIRight"
+            android:id="@+id/imageViewOne" />
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:tag="2"
+            android:onClick="amIRight"
+            android:id="@+id/imageViewTwo" />
+
+        <ImageView
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:tag="3"
+            android:onClick="amIRight"
+            android:id="@+id/imageViewThree" />
+
+
+    </GridLayout>
+</LinearLayout>
