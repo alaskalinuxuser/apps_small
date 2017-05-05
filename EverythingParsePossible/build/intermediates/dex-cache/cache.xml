@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/alaskalinuxuser/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/parse-android-1.13.0_3a99fd4ed3f4d344f9415c43f26d2228f6f9d627.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alaskalinuxuser/.android/build-cache/e5b8fc7c0edf944b92de61709eded7c23aece713/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/classes_9bdf0ac91c505d5ceb35467f82640bc3f4f27546.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alaskalinuxuser/.android/build-cache/0e529dbf9216fd233e10be1f069634a446da8b3d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/classes_961e10b636517f3351a3e257e53bd333eda50714.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alaskalinuxuser/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.2.0_a978f3da6db15e56804dc491c9c2cd6925242397.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alaskalinuxuser/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_9b2e255ca50f42accaded848482ffd74ca2d9a30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alaskalinuxuser/.android/build-cache/0e529dbf9216fd233e10be1f069634a446da8b3d/output/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_05682123e192ab803544b051b45231c3ad21f9d9.jar" />
+    </item>
+
+</items>

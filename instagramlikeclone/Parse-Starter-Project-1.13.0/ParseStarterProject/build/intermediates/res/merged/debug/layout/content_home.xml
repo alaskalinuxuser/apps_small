@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.parse.starter.homeActivity"
+    tools:showIn="@layout/activity_home">
+
+    <ImageView
+        android:id="@+id/myFriendsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/friends" />
+
+    <TextView
+        android:id="@+id/myFriendsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/myFriendsView"
+        android:layout_marginBottom="20dp"
+        android:text="My Friends" />
+
+    <ImageView
+        android:id="@+id/myPicsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/mypics" />
+
+    <TextView
+        android:id="@+id/myPicsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/myPicsView"
+        android:layout_alignRight="@+id/myPicsView"
+        android:layout_below="@+id/myPicsView"
+        android:layout_marginBottom="20dp"
+        android:text="My Pics" />
+
+</LinearLayout>

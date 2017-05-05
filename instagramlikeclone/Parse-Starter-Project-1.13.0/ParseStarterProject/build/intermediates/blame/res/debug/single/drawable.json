@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/bwcam.png",
+        "source": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/drawable/bwcam.png"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/takepic.png",
+        "source": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/drawable/takepic.png"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/iconbig.png",
+        "source": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/drawable/iconbig.png"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/snackbar_background.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/e069fbeadd0d20dd41602f41f06864e0265283f9/output/res/drawable/snackbar_background.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/fab_background.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/e069fbeadd0d20dd41602f41f06864e0265283f9/output/res/drawable/fab_background.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/friends.png",
+        "source": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/drawable/friends.png"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/colcam.png",
+        "source": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/drawable/colcam.png"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/circle.png",
+        "source": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/drawable/circle.png"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/res/drawable/abc_list_selector_holo_dark.xml"
+    }
+]

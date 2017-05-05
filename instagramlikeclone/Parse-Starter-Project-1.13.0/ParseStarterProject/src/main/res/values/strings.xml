@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<resources>
+    <string name="parse_app_id">APPID</string>
+    <string name="parse_client_key">CLIENTKEY</string>
+
+    <string name="app_name">APPNAME</string>
+
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Log out</string>
+    <string name="title_activity_login">MyInstagram: Login</string>
+    <string name="title_activity_home">MyInstagram: Home</string>
+    <string name="title_activity_friends_list">My Friends!</string>
+    <string name="title_activity_my_pics">MyPics</string>
+    <string name="title_activity_friend_feed">Friend\'s Feed</string>
+</resources>

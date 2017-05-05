@@ -1,0 +1,7 @@
+#Wed May 03 14:01:29 AKDT 2017
+base.0=/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_06594ca6e04db698a1cffa819ad1f1b71913e805
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ee8d437c693a995e31fb9b3edaa68f9b80e78d8a/classes.dex
+base.1=/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ee8d437c693a995e31fb9b3edaa68f9b80e78d8a
+file.0=/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_06594ca6e04db698a1cffa819ad1f1b71913e805/classes.dex

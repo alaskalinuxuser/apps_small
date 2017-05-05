@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/e5b8fc7c0edf944b92de61709eded7c23aece713/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/alaskalinuxuser/.android/build-cache/e5b8fc7c0edf944b92de61709eded7c23aece713/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

@@ -1,0 +1,127 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:9:1-64:12
+	package
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
+	android:versionCode
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:13:22-76
+application
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:15:5-62:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0] /home/alaskalinuxuser/.android/build-cache/e36ede99fad732bbea1b7b0b4a01adc919329c33/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:22.2.1] /home/alaskalinuxuser/.android/build-cache/e069fbeadd0d20dd41602f41f06864e0265283f9/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /home/alaskalinuxuser/.android/build-cache/414e6a3779f2daca807a82d55b08a5c7d598ef92/output/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:18:9-41
+	android:theme
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:16:9-43
+meta-data#com.parse.APPLICATION_ID
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:21:9-23:52
+	android:value
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:23:13-49
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:22:13-52
+meta-data#com.parse.CLIENT_KEY
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:24:9-26:56
+	android:value
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:26:13-53
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:25:13-48
+activity#com.parse.starter.MainActivity
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:28:9-36:20
+	android:label
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:30:13-45
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:29:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:34:27-74
+activity#com.parse.starter.LoginActivity
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:37:9-40:59
+	android:label
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:39:13-57
+	android:theme
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:38:13-42
+activity#com.parse.starter.homeActivity
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:41:9-44:59
+	android:label
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:43:13-56
+	android:theme
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:42:13-41
+activity#com.parse.starter.FriendsList
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:45:9-48:59
+	android:label
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:47:13-64
+	android:theme
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:46:13-40
+activity#com.parse.starter.MyPics
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:49:9-52:59
+	android:label
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:51:13-59
+	android:theme
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:50:13-35
+activity#com.parse.starter.FriendFeed
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:53:9-61:20
+	android:label
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:55:13-63
+	android:parentActivityName
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:56:13-54
+	android:theme
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:54:13-39
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:58:13-60:65
+	android:value
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:60:17-62
+	android:name
+		ADDED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml:59:17-63
+uses-sdk
+INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0] /home/alaskalinuxuser/.android/build-cache/e36ede99fad732bbea1b7b0b4a01adc919329c33/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:22.2.1] /home/alaskalinuxuser/.android/build-cache/e069fbeadd0d20dd41602f41f06864e0265283f9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /home/alaskalinuxuser/.android/build-cache/a86d91916c1caa9f959766ef13326d4b0eb6a88d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /home/alaskalinuxuser/.android/build-cache/414e6a3779f2daca807a82d55b08a5c7d598ef92/output/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
+		INJECTED from /home/alaskalinuxuser/AndroidStudioProjects/testing/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/AndroidManifest.xml
