@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tab Fragment Tutorial</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tab_title_1">Yellow Tab</string>
+    <string name="tab_title_2">Purple Tab</string>
+
+</resources>
