@@ -1,7 +1,9 @@
 package com.alaskalinuxuser.game;
 
 import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.Game;
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
@@ -11,19 +13,24 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Circle;
 import com.badlogic.gdx.math.Intersector;
 
+/**
+ * Created by alaskalinuxuser on 7/14/17.
+ */
 
-public class MyGdxGame extends ApplicationAdapter {
-	SpriteBatch batch;
-	Texture img;
+public class ThirdScreen implements Screen {
+
+    SpriteBatch batch;
+    Texture img;
     ShapeRenderer shapeRenderer;
     Circle centerCircle, leftCircle, rightCircle, myTouch;
     OrthographicCamera camera;
-    int colorChanger;
-	
-	@Override
-	public void create () {
-		batch = new SpriteBatch();
-		img = new Texture("aklu.jpg");
+    int colorChanger, counter;
+    private Game game;
+
+    public ThirdScreen (Game agame) {
+        game = agame;
+        batch = new SpriteBatch();
+        img = new Texture("aklu.jpg");
         shapeRenderer = new ShapeRenderer();
         centerCircle = new Circle();
         leftCircle = new Circle();
@@ -32,15 +39,23 @@ public class MyGdxGame extends ApplicationAdapter {
         camera = new OrthographicCamera();
         camera.setToOrtho(false, 800, 400);
         colorChanger = 0;
-	}
+        counter = 0;
+    }
 
-	@Override
-	public void render () {
-		Gdx.gl.glClearColor(1, 1, 1, 1);
-		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
+    @Override
+    public void show() {
+
+    }
+
+    @Override
+    public void render(float delta) {
+
+
+        Gdx.gl.glClearColor(1, 1, 1, 1);
+        Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
         camera.update();
-		batch.begin();
+        batch.begin();
 
         batch.draw(img, 0, 0);
 
@@ -73,8 +88,13 @@ public class MyGdxGame extends ApplicationAdapter {
 
             // Did we have an overlap of the "myTouch" and a circle?
             if (Intersector.overlaps(myTouch, centerCircle) ||
-                   Intersector.overlaps(myTouch, rightCircle) ||
+                    Intersector.overlaps(myTouch, rightCircle) ||
                     Intersector.overlaps(myTouch, leftCircle)) {
+
+                counter++; // add to the counter.
+                if (counter >= 60) {
+                    game.setScreen(new secondScreen(game));
+                }
 
                 if (colorChanger < 2) {
                     colorChanger++;
@@ -124,11 +144,32 @@ public class MyGdxGame extends ApplicationAdapter {
         shapeRenderer.end(); // For visualizing collision shapes.
 
 
-	}
-	
-	@Override
-	public void dispose () {
-		batch.dispose();
-		img.dispose();
-	}
+    }
+
+    @Override
+    public void resize(int width, int height) {
+
+    }
+
+    @Override
+    public void pause() {
+
+    }
+
+    @Override
+    public void resume() {
+
+    }
+
+    @Override
+    public void hide() {
+
+    }
+
+    @Override
+    public void dispose () {
+        batch.dispose();
+        img.dispose();
+    }
 }
+
