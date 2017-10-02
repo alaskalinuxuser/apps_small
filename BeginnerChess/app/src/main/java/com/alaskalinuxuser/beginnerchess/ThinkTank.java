@@ -1,5 +1,7 @@
 package com.alaskalinuxuser.beginnerchess;
 
+import android.util.Log;
+
 import static com.alaskalinuxuser.beginnerchess.MainActivity.chessBoard;
 import static com.alaskalinuxuser.beginnerchess.MainActivity.globalDepth;
 import static com.alaskalinuxuser.beginnerchess.MainActivity.kingPositionC;
@@ -30,6 +32,7 @@ public class ThinkTank {
         list=sortMoves(list);
         player=1-player;//either 1 or 0
         for (int i=0;i<list.length();i+=5) {
+            Log.i("WJH", list);
             makeMove(list.substring(i,i+5));
             flipBoard();
             String returnString=alphaBeta(depth-1, beta, alpha, list.substring(i,i+5), player);
@@ -45,7 +48,13 @@ public class ThinkTank {
                 if (player==0) {return move+beta;} else {return move+alpha;}
             }
         }
-        if (player==0) {return move+beta;} else {return move+alpha;}
+        if (player==0) {
+            // Debugging only //Log.i("WJH", move+beta);
+            return move+beta;
+        } else {
+            // Debugging only //Log.i("WJH", move+alpha);
+            return move+alpha;
+        }
     } // End alphabeta algorithm.
 
     public static void flipBoard() {
@@ -78,28 +87,24 @@ public class ThinkTank {
     } // End flip board.
 
     public static void makeMove(String move) {
-        /*public static void makeMove(String move) {
-            int xf,yf,xt,yt;
-            //x1,y1,x2,y2,captured piece
-            if (move.charAt(4)!='C' && move.charAt(4)!='P') {
-            {
-                xt=Character.getNumericValue(move.charAt(2));
-            }
-            yt=Character.getNumericValue(move.charAt(3));
-            xf=Character.getNumericValue(move.charAt(0));
-            yf=Character.getNumericValue(move.charAt(1));
-            }
-        }*/
-        if (move.charAt(4)!='P') {
-            chessBoard[Character.getNumericValue(move.charAt(2))][Character.getNumericValue(move.charAt(3))]=chessBoard[Character.getNumericValue(move.charAt(0))][Character.getNumericValue(move.charAt(1))];
-            chessBoard[Character.getNumericValue(move.charAt(0))][Character.getNumericValue(move.charAt(1))]=" ";
-            if ("K".equals(chessBoard[Character.getNumericValue(move.charAt(2))][Character.getNumericValue(move.charAt(3))])) {
-                kingPositionC=8*Character.getNumericValue(move.charAt(2))+Character.getNumericValue(move.charAt(3));
-            }
+        /*
+         * In theory, if there are no moves, then you are in checkmate....
+         */
+        if (move.length() < 4) {
+            Log.i("WJH", "Checkmate.");
         } else {
-            //if pawn promotion
-            chessBoard[1][Character.getNumericValue(move.charAt(0))]=" ";
-            chessBoard[0][Character.getNumericValue(move.charAt(1))]=String.valueOf(move.charAt(3));
+
+            if (move.charAt(4) != 'P') {
+                chessBoard[Character.getNumericValue(move.charAt(2))][Character.getNumericValue(move.charAt(3))] = chessBoard[Character.getNumericValue(move.charAt(0))][Character.getNumericValue(move.charAt(1))];
+                chessBoard[Character.getNumericValue(move.charAt(0))][Character.getNumericValue(move.charAt(1))] = " ";
+                if ("K".equals(chessBoard[Character.getNumericValue(move.charAt(2))][Character.getNumericValue(move.charAt(3))])) {
+                    kingPositionC = 8 * Character.getNumericValue(move.charAt(2)) + Character.getNumericValue(move.charAt(3));
+                }
+            } else {
+                //if pawn promotion
+                chessBoard[1][Character.getNumericValue(move.charAt(0))] = " ";
+                chessBoard[0][Character.getNumericValue(move.charAt(1))] = String.valueOf(move.charAt(3));
+            }
         }
     } // End makeMove
 
@@ -121,11 +126,11 @@ public class ThinkTank {
         String list="";
         for (int i=0; i<64; i++) {
             switch (chessBoard[i/8][i%8]) {
-                case "P": list+=posibleP(i);
+                case "N": list+=posibleN(i);
                     break;
                 case "R": list+=posibleR(i);
                     break;
-                case "N": list+=posibleN(i);
+                case "P": list+=posibleP(i);
                     break;
                 case "B": list+=posibleB(i);
                     break;
@@ -282,6 +287,7 @@ public class ThinkTank {
                     if (Character.isLowerCase(chessBoard[r+j][c+k*2].charAt(0)) || " ".equals(chessBoard[r+j][c+k*2])) {
                         oldPiece=chessBoard[r+j][c+k*2];
                         chessBoard[r][c]=" ";
+                        chessBoard[r+j][c+k*2]="N";
                         if (kingSafe()) {
                             list=list+r+c+(r+j)+(c+k*2)+oldPiece;
                         }
@@ -293,6 +299,7 @@ public class ThinkTank {
                     if (Character.isLowerCase(chessBoard[r+j*2][c+k].charAt(0)) || " ".equals(chessBoard[r+j*2][c+k])) {
                         oldPiece=chessBoard[r+j*2][c+k];
                         chessBoard[r][c]=" ";
+                        chessBoard[r+j*2][c+k]="N";
                         if (kingSafe()) {
                             list=list+r+c+(r+j*2)+(c+k)+oldPiece;
                         }
